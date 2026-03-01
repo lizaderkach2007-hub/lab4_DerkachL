@@ -1,8 +1,12 @@
-from utils import factorial, is_prime
+from utils import is_power_of_two
 
 def main():
-    print("factorial(5) =", factorial(5))
-    print("is_prime(7) =", is_prime(7))
+    numbers = [1, 2, 8, 10, 16, 20, 0, -2]
+    
+    print("--- Перевірка степенів двійки ---")
+    for num in numbers:
+        result = is_power_of_two(num)
+        print(f"Чи є число {num} степенем двійки? -> {result}")
 
-if name == "__main__":
+if __name__ == "__main__":
     main()
