@@ -10,3 +10,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+prime_number = 7
+print(f"Чи є число {prime_number} простим? {is_prime(prime_number)}")
