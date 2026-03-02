@@ -14,3 +14,5 @@ if __name__ == "__main__":
 
 prime_number = 7
 print(f"Чи є число {prime_number} простим? {is_prime(prime_number)}")
+
+from utils import is_odd
